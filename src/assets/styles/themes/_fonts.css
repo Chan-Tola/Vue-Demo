@@ -1,0 +1,20 @@
+/* src/assets/styles/themes/_fonts.css */
+
+/* IMPORT Google Fonts CSS */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Preahvihear&display=swap");
+
+:root {
+  /* Fonts - Use Moul for Khmer since Preahvihear isn't on Google Fonts */
+  --font-english: "DM Serif Display", serif;
+  --font-khmer: "Preahvihear", sans-serif;
+}
+
+/* Font classes */
+.font-english {
+  font-family: var(--font-english);
+}
+
+.font-khmer {
+  font-family: var(--font-khmer);
+}

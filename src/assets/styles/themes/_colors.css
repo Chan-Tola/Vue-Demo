@@ -1,0 +1,45 @@
+:root {
+  /* Primary Brand Colors */
+  --color-burgundy: #452829;
+  --color-charcoal: #57595b;
+  --color-peach: #e8d1c5;
+  --color-cream: #f3e8df;
+  /* Pink Color For navigation */
+  --color-pink-50: #ffd1df;
+  --color-pink-500: #ec4899;
+  --color-pink-600: #db2777;
+
+  /* Green and Mint Color */
+  /* Mint Color */
+  --color-mint: #3eb489;
+  /* Light Green */
+  --color-light-green: #96f97b;
+
+  /* Simple naming for UI */
+  --color-primary: var(--color-burgundy);
+  --color-secondary: var(--color-charcoal);
+  --color-accent: var(--color-peach);
+  --color-pink: var(--color-pink-500);
+  --color-pink: var(--color-pink-50);
+  --color-surface: #ffffff; /* white */
+  /* Neutral colors */
+  --color-neutral-50: #f9fafb;
+  --color-neutral-100: #f3f4f6;
+  --color-neutral-200: #e5e7eb;
+
+  /* Fonts */
+  --font-english: "DM Serif Display", serif;
+  --font-khmer: "Preahvihear", sans-serif;
+}
+
+/* Pink Color utilities */
+.bg-pink-50 {
+  background-color: var(--color-pink-50);
+}
+.text-pink-500 {
+  color: var(--color-pink-500);
+}
+
+.text-pink-600 {
+  color: var(--color-pink-600);
+}

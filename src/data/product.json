@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Vitamin C Brightening Serum",
+      "price": 68.99,
+      "image": "p1-removebg-preview.png",
+      "badge": "BESTSELLER",
+      "category": "serum",
+      "description": "Fights dark spots & boosts radiance"
+    },
+    {
+      "id": 2,
+      "name": "Gentle Foam Cleanser",
+      "price": 24.5,
+      "image": "c1d6e0380c328977ad651d4746bcff95-removebg-preview.png",
+      "badge": "ECO",
+      "category": "cleanser",
+      "description": "Removes impurities without stripping"
+    },
+    {
+      "id": 3,
+      "name": "Hydrating Overnight Mask",
+      "price": 42.99,
+      "image": "ef50145a650dd3c2ea8cb0e8497e2ae6-removebg-preview.png",
+      "badge": "NEW",
+      "category": "mask",
+      "description": "Deep hydration while you sleep"
+    },
+    {
+      "id": 4,
+      "name": "Pore Refining Clay Mask",
+      "price": 32.75,
+      "image": "ad2df8c161819c92f4ddc8e979ca6c15-removebg-preview.png",
+      "badge": "DETOX",
+      "category": "mask",
+      "description": "Purifies & minimizes pores"
+    },
+    {
+      "id": 5,
+      "name": "Rosewater Facial Mist",
+      "price": 18.99,
+      "image": "857ae97d1a8d6572630625f583a02a09-removebg-preview.png",
+      "badge": "ORGANIC",
+      "category": "toner",
+      "description": "Instant hydration & refreshment"
+    },
+    {
+      "id": 6,
+      "name": "Niacinamide Balance Serum",
+      "price": 36.5,
+      "image": "b0238dff8680b7ec4440e4ac680a484e-removebg-preview.png",
+      "badge": "POPULAR",
+      "category": "serum",
+      "description": "Controls oil & improves skin texture"
+    },
+    {
+      "id": 7,
+      "name": "Soothing Aloe Gel",
+      "price": 22.99,
+      "image": "f2e2346a899b2d5db402126160a274d9-removebg-preview.png",
+      "badge": "CALMING",
+      "category": "moisturizer",
+      "description": "Relieves irritation & redness"
+    },
+    {
+      "id": 8,
+      "name": "SPF 50+ Daily Sunscreen",
+      "price": 29.99,
+      "image": "91489bb396c3b1a0440d7f9dcae97111-removebg-preview.png",
+      "badge": "PROTECT",
+      "category": "sunscreen",
+      "description": "Broad spectrum UV protection"
+    },
+    {
+      "id": 9,
+      "name": "Retinol Night Cream",
+      "price": 48.75,
+      "image": "f89de15e029f7409326cb71bf0572411-removebg-preview.png",
+      "badge": "ANTI-AGING",
+      "category": "cream",
+      "description": "Reduces fine lines & wrinkles"
+    },
+    {
+      "id": 10,
+      "name": "Green Tea Eye Cream",
+      "price": 26.99,
+      "image": "47c5a8353b495ebb814b628e47400544-removebg-preview.png",
+      "badge": "REFRESH",
+      "category": "eye-care",
+      "description": "Reduces puffiness & dark circles"
+    }
+  ]
+}
