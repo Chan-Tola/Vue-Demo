@@ -46,7 +46,7 @@
               <!-- Product Image -->
               <div class="mb-4 aspect-square overflow-hidden">
                 <img
-                  :src="`/src/assets/images/products/${product.image}`"
+                  :src="getProductImageUrl(product.image)"
                   :alt="product.name"
                   class="w-full h-full object-cover"
                 />
@@ -105,6 +105,7 @@ import { useRouter } from "vue-router";
 import { useProductStore } from "../../products/productStore";
 import { useCartStore } from "../../carts/cartStore";
 import { useLanguage } from "../../../composables/useLanguage";
+import { getProductImageUrl } from "../../../utils/productImages";
 
 const router = useRouter();
 const productStore = useProductStore();

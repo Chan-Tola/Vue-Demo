@@ -278,16 +278,9 @@
 
 <script setup>
 import { useCartStore } from "../../carts/cartStore";
+import { getProductImageUrl } from "../../../utils/productImages";
 
 const cartStore = useCartStore();
-
-const getProductImageUrl = (imagePath) => {
-  if (!imagePath) return "";
-  if (imagePath.startsWith("http")) {
-    return imagePath;
-  }
-  return `/src/assets/images/products/${imagePath}`;
-};
 
 const incrementQuantity = (productId) => {
   const item = cartStore.cartItems.find((item) => item.id === productId);

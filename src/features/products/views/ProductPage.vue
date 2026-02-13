@@ -128,20 +128,12 @@ import { useProductStore } from "../../products/productStore";
 import { useCartStore } from "../../carts/cartStore";
 import ScrollAnimation from "../../../components/common/ScrollAnimation.vue";
 import { useLanguage } from "../../../composables/useLanguage";
+import { getProductImageUrl } from "../../../utils/productImages";
 
 const productStore = useProductStore();
 const cartStore = useCartStore();
 const router = useRouter();
 const { translate } = useLanguage();
-
-const getProductImageUrl = (imagePath) => {
-  // Handle both absolute URLs and local paths
-  // if (imagePath.startsWith("http")) {
-  //   return imagePath;
-  // }
-  // For local images, you might need to adjust this path
-  return `/src/assets/images/products/${imagePath}`;
-};
 
 const goToProductDetail = (productId) => {
   router.push(`/products/${productId}`);

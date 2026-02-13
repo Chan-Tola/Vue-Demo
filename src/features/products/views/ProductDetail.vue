@@ -240,6 +240,7 @@ import { useRoute } from "vue-router";
 import { useProductStore } from "../../products/productStore";
 import { useCartStore } from "../../carts/cartStore";
 import { useLanguage } from "../../../composables/useLanguage";
+import { getProductImageUrl } from "../../../utils/productImages";
 
 const route = useRoute();
 const productStore = useProductStore();
@@ -252,15 +253,6 @@ const product = computed(() => {
   const productId = parseInt(route.params.id);
   return productStore.products.find((p) => p.id === productId) || {};
 });
-
-const getProductImageUrl = (imagePath) => {
-  if (!imagePath) return "";
-  // Handle both absolute URLs and local paths
-  if (imagePath.startsWith("http")) {
-    return imagePath;
-  }
-  return `/src/assets/images/products/${imagePath}`;
-};
 
 const increaseQuantity = () => {
   quantity.value++;

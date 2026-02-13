@@ -83,14 +83,11 @@ import { Splide, SplideSlide } from "@splidejs/vue-splide";
 import "@splidejs/vue-splide/css";
 import { useProductStore } from "../../features/products/productStore";
 import { useLanguage } from "../../composables/useLanguage";
+import { getProductImageUrl } from "../../utils/productImages";
 const { translate } = useLanguage();
 
 const productStore = useProductStore();
 const isMobile = ref(false);
-
-const getProductImageUrl = (imagePath) => {
-  return `/src/assets/images/products/${imagePath}`;
-};
 
 const splideOptions = {
   type: "loop",
